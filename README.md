@@ -13,7 +13,7 @@ The GitHub Crawler is a tool designed to scrape GitHub search results and fetch 
 
 ## Features
 
-- Fetch search results from GitHub for repositories, issues, or wikis.
+- Fetch search results from raw HTML GitHub response for repositories, issues, or wikis. Here is NOT only first page but ALL next pages are until rate limit exeption is raised. 
 - Extract detailed information about repositories.
 - Supports proxy rotation for efficient scraping.
 - Asynchronous processing for faster retrieval of data.
@@ -73,6 +73,9 @@ The `config.json` file contains the configuration settings for the GitHub Crawle
 ## Documentation
 
 Detailed documentation for the GitHub Crawler and its components can be found in the source code itself. Each module contains docstrings that explain its purpose, usage, and parameters.
+
+## Parsing Results
+For the results please check `crawler.log` which will generated upon script finished work.
 
 ## Testing
 
