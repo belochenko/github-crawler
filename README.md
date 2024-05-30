@@ -78,10 +78,10 @@ Detailed documentation for the GitHub Crawler and its components can be found in
 
 The project includes comprehensive unit tests to verify the functionality of key components. Tests cover:
 
-Parsing of search results and repository information
-Proxy management and rotation
-Error handling and edge cases
-Run the tests using the following command:
+- Parsing of search results and repository information
+- Proxy management and rotation
+- Error handling and edge cases
+- Run the tests using the following command:
 
 ```bash
 python -m unittest discover tests
