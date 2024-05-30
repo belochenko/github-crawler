@@ -1,0 +1,10 @@
+{
+    "keywords": [
+        "python",
+        "django-rest-framework",
+        "jwt"
+    ],
+    "proxies": [
+    ],
+    "type": "repositories"
+}
